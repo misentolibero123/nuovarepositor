@@ -1,0 +1,40 @@
+{
+  "name": "botrestuarant",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.6",
+    "@tippyjs/react": "^4.2.6",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.6.8",
+    "chart.js": "^4.4.3",
+    "daisyui": "^4.11.1",
+    "framer-motion": "^11.3.6",
+    "next": "14.2.3",
+    "pg": "^8.11.5",
+    "pg-pool": "^3.6.2",
+    "postcss": "^8.4.38",
+    "react": "^18",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "tailwindcss": "^3.4.3",
+    "three": "^0.164.1",
+    "tippy": "^0.0.0",
+    "wavesurfer.js": "^7.7.14"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  }
+}
