@@ -6,9 +6,9 @@ const COINBASE_COMMERCE_API_URL = "https://api.commerce.coinbase.com/charges";
 export async function POST(req) {
   const { amount, currency } = await req.json();
 
-  try {
+  try  {
     const chargeData = {
-      name: "Acquisto Criptovaluta",
+      name: "Acquisto Criptovaluta1",
       description: "Acquisto di criptovaluta tramite Coinbase Commerce",
       pricing_type: "fixed_price",
       local_price: {
