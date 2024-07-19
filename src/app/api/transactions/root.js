@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import axios from "axios";
 
 const COINBASE_COMMERCE_API_URL = "https://api.commerce.coinbase.com/charges";
-// const API_KEY = "a9ad9809-781e-4e79-b9a0-241f04024109";
 
 export async function POST(req) {
   const { amount, currency } = await req.json();
