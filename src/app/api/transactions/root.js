@@ -16,7 +16,7 @@ export async function POST(req) {
         currency: currency,
       },
       metadata: {
-        customer_id: "id_unico_cliente",
+        customer_id: "id_unico_clientee",
         customer_name: "nome_cliente",
       },
       redirect_url: "https://tuo-sito.com/acquisto-completato",
