@@ -1,15 +1,16 @@
 "use client"
 import { useState, useEffect } from "react";
 import { Box, Heading, VStack, Flex } from "@chakra-ui/react";
-import ProgressBar from "../components/ProgressBar";
-import HoldingsSummary from "../components/HoldingsSummary";
-import PerformanceChart from "../components/PerformanceChart";
-import Sidebar from "../components/Sidebar";
-import PassiveEarnings from "../components/PassiveEarnings";
-import Rebalance from "../components/Rebalance";
-import Withdrawals from "../components/Withdrawals";
-import PurchaseForm from "../components/PurchaseForm";
-import Navbar from "@/Components/Navbar";
+import ProgressBar from "../Components/ProgressBar";
+import HoldingsSummary from "../Components/HoldingsSummary";
+import PerformanceChart from "../Components/PerformanceChart";
+import Sidebar from "../Components/Sidebar";
+import PassiveEarnings from "../Components/PassiveEarnings";
+import Rebalance from "../Components/Rebalance";
+import Withdrawals from "../Components/Withdrawals";
+import PurchaseForm from "../Components/PurchaseForm";
+import Navbar from "../Components/Navbar";
+
 
 export default function Dashboard() {
   const [progress, setProgress] = useState(0);
