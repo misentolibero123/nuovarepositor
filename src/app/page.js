@@ -11,7 +11,7 @@ import Withdrawals from "../Components/Withdrawals";
 import PurchaseForm from "../Components/PurchaseForm";
 import Navbar from "../Components/Navbar";
 
-
+// hi
 export default function Dashboard() {
   const [progress, setProgress] = useState(0);
   const [holdings, setHoldings] = useState({ btc_amount: 0, usdt_amount: 0 });
