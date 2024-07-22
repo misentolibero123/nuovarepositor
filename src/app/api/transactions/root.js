@@ -8,7 +8,7 @@ export async function POST(req) {
 
   try  {
     const chargeData = {
-      name: "Acquisto Criptovaluta1",
+      name: "Acquisto Criptovaluta",
       description: "Acquisto di criptovaluta tramite Coinbase Commerce",
       pricing_type: "fixed_price",
       local_price: {
